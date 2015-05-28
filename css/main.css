@@ -1,36 +1,44 @@
 header{
-	background-color: activecaption;
+background-color: blue;
+	height: 400px;
+	width: 1000px;
+	margin-right: 50px;
+	margin-left: 150px;
+	margin-top: 150px;
+	border: 50px;
+	margin-bottom: 100px;
+	font-size: 50px;
 	text-align: center;
+	color: white;
 }
 body{
-	background-image: url(http://bigbackground.com/wp-content/uploads/2013/07/techno-background.jpg);
+	background: url('https://download.unsplash.com/photo-1422284763110-6d0edd657b13') no-repeat center center fixed;
+	background-size: cover;
 }
-.in
-{
-  width:100px;
-  height:40px;
-  border:2px solid blue;
-  background-color:#333333;
-  box-shadow: 3px 3px 3px 3px;
-  display:inline-block;
-  margin-right:2px;
+li {
+  background-color: gray;
+  padding: 20px;
+  display: inline;
+  box-shadow: 1px 1px 1px black;
+  text-shadow: 4px 4px 4px black;
+  margin-right: 50px;
 }
 
-.nav
-{
-  text-shadow: 1px 2px 1px #000011; 
-  letter-spacing:1px;
-  text-align:center;
-  width:100%;
+ul {
+  text-align: center;
+  margin: 100px auto;
 }
-a
-{ 
-  padding:8px 12px;
-  display:block;
-  color:gray;
-  text-decoration:none;
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
-li:hover
-{
-  font-size:20px;
+
+a:hover {
+  color: black;
+}
+
+li:hover {
+  background-color: activecaption;
 }
